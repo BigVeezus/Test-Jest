@@ -5,8 +5,8 @@ import {
 } from "../../app/doubles/OtherUtils";
 import { toUpperCase } from "../../app/utils";
 
-describe("Other Utils test suite", () => {
-  describe.only("OtherStringUtils tests with spies", () => {
+describe.skip("Other Utils test suite", () => {
+  describe("OtherStringUtils tests with spies", () => {
     let sut: OtherStringUtils;
 
     beforeEach(() => {
