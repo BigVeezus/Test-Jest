@@ -3,7 +3,9 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-
+    "rootDir": "src",
+    "outDir": "dist",
     "strictPropertyInitialization": false
-  }
+  },
+  "include": ["src/**/*"]
 }
