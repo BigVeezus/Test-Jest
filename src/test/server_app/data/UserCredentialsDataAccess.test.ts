@@ -57,6 +57,6 @@ describe("UserCredentials test suite", () => {
 
     const actualUser = await sut.getUserByUserName(someAccount.userName);
     expect(actualUser).toBe(someAccount);
-    expect(getByMock).toHaveBeenCalledWith("username", someAccount.userName);
+    expect(getByMock).toHaveBeenCalledWith("userName", someAccount.userName);
   });
 });
