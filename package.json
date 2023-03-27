@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test w": "jest --watch",
-    "start": "ts-node src/app/server_app/Launcher.ts"
+    "start": "ts-node src/app/server_app/Launcher.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
