@@ -14,7 +14,7 @@ jest.mock("../../../app/server_app/utils/Utils", () => ({
   getRequestBody: () => getRequestBodyMock(),
 }));
 
-describe.only("Register handler suite", () => {
+describe("Register handler suite", () => {
   let sut: RegisterHandler;
 
   const request = {
